@@ -1,0 +1,618 @@
+[
+  {
+    "id": "anthropic/claude-opus-4-6",
+    "provider": "Anthropic",
+    "providerKey": "anthropic",
+    "name": "claude-opus-4-6",
+    "category": "Popular",
+    "desc": "Most powerful Claude — complex reasoning"
+  },
+  {
+    "id": "anthropic/claude-sonnet-4-6",
+    "provider": "Anthropic",
+    "providerKey": "anthropic",
+    "name": "claude-sonnet-4.6",
+    "category": "Popular",
+    "desc": "Best balance of intelligence and speed"
+  },
+  {
+    "id": "anthropic/claude-haiku-4-5-20251001",
+    "provider": "Anthropic",
+    "providerKey": "anthropic",
+    "name": "claude-haiku-4-5",
+    "category": "Popular",
+    "desc": "Fastest Claude — lightweight tasks"
+  },
+  {
+    "id": "anthropic/claude-opus-4-20250514",
+    "provider": "Anthropic",
+    "providerKey": "anthropic",
+    "name": "claude-opus-4",
+    "category": "Popular",
+    "desc": "Claude Opus 4 — previous flagship"
+  },
+  {
+    "id": "anthropic/claude-sonnet-4-20250514",
+    "provider": "Anthropic",
+    "providerKey": "anthropic",
+    "name": "claude-sonnet-4",
+    "category": "Popular",
+    "desc": "Claude Sonnet 4 — previous generation"
+  },
+  {
+    "id": "openai/gpt-5.4",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "gpt-5.4",
+    "category": "Popular",
+    "desc": "Flagship — complex reasoning, 1M context"
+  },
+  {
+    "id": "openai/gpt-5",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "gpt-5",
+    "category": "Popular",
+    "desc": "Previous flagship — still highly capable"
+  },
+  {
+    "id": "openai/gpt-5.4-mini",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "gpt-5.4-mini",
+    "category": "Popular",
+    "desc": "Fast, efficient — high-volume workloads"
+  },
+  {
+    "id": "openai/gpt-5.4-nano",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "gpt-5.4-nano",
+    "category": "Popular",
+    "desc": "Cheapest GPT-5.4-class — classification, sub-agents"
+  },
+  {
+    "id": "openai/gpt-4.1",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "gpt-4.1",
+    "category": "Popular",
+    "desc": "GPT-4.1 — strong general-purpose model"
+  },
+  {
+    "id": "openai/gpt-4.1-mini",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "gpt-4.1-mini",
+    "category": "Popular",
+    "desc": "GPT-4.1 Mini — efficient mid-tier"
+  },
+  {
+    "id": "openai/gpt-4.1-nano",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "gpt-4.1-nano",
+    "category": "Popular",
+    "desc": "GPT-4.1 Nano — ultra-lightweight tasks"
+  },
+  {
+    "id": "openai/o3",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "o3",
+    "category": "Popular",
+    "desc": "Advanced reasoning model"
+  },
+  {
+    "id": "openai/o3-mini",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "o3-mini",
+    "category": "Popular",
+    "desc": "Compact reasoning — efficient chain-of-thought"
+  },
+  {
+    "id": "openai/o3-pro",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "o3-pro",
+    "category": "Popular",
+    "desc": "Premium reasoning — highest accuracy"
+  },
+  {
+    "id": "openai/o4-mini",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "o4-mini",
+    "category": "Popular",
+    "desc": "Fast reasoning"
+  },
+  {
+    "id": "openai/computer-use-preview",
+    "provider": "OpenAI",
+    "providerKey": "openai",
+    "name": "computer-use-preview",
+    "category": "Popular",
+    "desc": "Computer use agent — GUI interaction"
+  },
+  {
+    "id": "gemini/gemini-2.5-pro",
+    "provider": "Google Gemini",
+    "providerKey": "gemini",
+    "name": "gemini-2.5-pro",
+    "category": "Popular",
+    "desc": "Most advanced Gemini — complex tasks"
+  },
+  {
+    "id": "gemini/gemini-2.5-pro-preview-06-05",
+    "provider": "Google Gemini",
+    "providerKey": "gemini",
+    "name": "gemini-2.5-pro-preview-06-05",
+    "category": "Popular",
+    "desc": "Gemini 2.5 Pro preview (June 2025)"
+  },
+  {
+    "id": "gemini/gemini-2.5-flash",
+    "provider": "Google Gemini",
+    "providerKey": "gemini",
+    "name": "gemini-2.5-flash",
+    "category": "Popular",
+    "desc": "Best price-performance reasoning"
+  },
+  {
+    "id": "gemini/gemini-2.5-flash-lite",
+    "provider": "Google Gemini",
+    "providerKey": "gemini",
+    "name": "gemini-2.5-flash-lite",
+    "category": "Popular",
+    "desc": "Fastest, most budget-friendly"
+  },
+  {
+    "id": "gemini/gemini-2.0-flash",
+    "provider": "Google Gemini",
+    "providerKey": "gemini",
+    "name": "gemini-2.0-flash",
+    "category": "Popular",
+    "desc": "Gemini 2.0 Flash — fast multimodal"
+  },
+  {
+    "id": "gemini/gemini-2.0-flash-lite",
+    "provider": "Google Gemini",
+    "providerKey": "gemini",
+    "name": "gemini-2.0-flash-lite",
+    "category": "Popular",
+    "desc": "Gemini 2.0 Flash Lite — cost-optimized"
+  },
+  {
+    "id": "gemini/gemini-3-flash-preview",
+    "provider": "Google Gemini",
+    "providerKey": "gemini",
+    "name": "gemini-3-flash-preview",
+    "category": "Popular",
+    "desc": "Next-gen Gemini 3 Flash (preview)"
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "provider": "DeepSeek",
+    "providerKey": "deepseek",
+    "name": "deepseek-chat",
+    "category": "Reasoning",
+    "desc": "DeepSeek V3.2 — coding, math, general"
+  },
+  {
+    "id": "deepseek/deepseek-reasoner",
+    "provider": "DeepSeek",
+    "providerKey": "deepseek",
+    "name": "deepseek-reasoner",
+    "category": "Reasoning",
+    "desc": "DeepSeek R1 — chain-of-thought reasoning"
+  },
+  {
+    "id": "deepseek/deepseek-v3-0324",
+    "provider": "DeepSeek",
+    "providerKey": "deepseek",
+    "name": "deepseek-v3-0324",
+    "category": "Reasoning",
+    "desc": "DeepSeek V3 (March 2024) — stable release"
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528",
+    "provider": "DeepSeek",
+    "providerKey": "deepseek",
+    "name": "deepseek-r1-0528",
+    "category": "Reasoning",
+    "desc": "DeepSeek R1 (May 2025) — improved reasoning"
+  },
+  {
+    "id": "grok/grok-4.20-0309-reasoning",
+    "provider": "xAI Grok",
+    "providerKey": "grok",
+    "name": "grok-4-reasoning",
+    "category": "Reasoning",
+    "desc": "Grok 4 — flagship reasoning, 2M context"
+  },
+  {
+    "id": "grok/grok-4.20-0309-non-reasoning",
+    "provider": "xAI Grok",
+    "providerKey": "grok",
+    "name": "grok-4-non-reasoning",
+    "category": "Reasoning",
+    "desc": "Grok 4 — standard, fastest response"
+  },
+  {
+    "id": "grok/grok-4-1-fast-reasoning",
+    "provider": "xAI Grok",
+    "providerKey": "grok",
+    "name": "grok-4-fast",
+    "category": "Reasoning",
+    "desc": "Grok 4 Fast — speed-optimized"
+  },
+  {
+    "id": "grok/grok-3",
+    "provider": "xAI Grok",
+    "providerKey": "grok",
+    "name": "grok-3",
+    "category": "Reasoning",
+    "desc": "Grok 3 — strong reasoning model"
+  },
+  {
+    "id": "grok/grok-3-mini",
+    "provider": "xAI Grok",
+    "providerKey": "grok",
+    "name": "grok-3-mini",
+    "category": "Reasoning",
+    "desc": "Grok 3 Mini — lightweight reasoning"
+  },
+  {
+    "id": "groq/llama-3.3-70b-versatile",
+    "provider": "Groq",
+    "providerKey": "groq",
+    "name": "llama-3.3-70b-versatile",
+    "category": "Fast Inference",
+    "desc": "Ultra-fast 70B"
+  },
+  {
+    "id": "groq/llama-3.1-8b-instant",
+    "provider": "Groq",
+    "providerKey": "groq",
+    "name": "llama-3.1-8b-instant",
+    "category": "Fast Inference",
+    "desc": "Ultra-fast 8B — instant"
+  },
+  {
+    "id": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider": "Groq",
+    "providerKey": "groq",
+    "name": "llama-4-scout-17b",
+    "category": "Fast Inference",
+    "desc": "Llama 4 Scout — multimodal, 10M context"
+  },
+  {
+    "id": "groq/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "provider": "Groq",
+    "providerKey": "groq",
+    "name": "llama-4-maverick",
+    "category": "Fast Inference",
+    "desc": "Llama 4 Maverick — multimodal, 1M context"
+  },
+  {
+    "id": "groq/qwen/qwen3-32b",
+    "provider": "Groq",
+    "providerKey": "groq",
+    "name": "qwen3-32b",
+    "category": "Fast Inference",
+    "desc": "Qwen 3 32B — strong reasoning"
+  },
+  {
+    "id": "cerebras/gpt-oss-120b",
+    "provider": "Cerebras",
+    "providerKey": "cerebras",
+    "name": "cerebras-gpt-oss-120b",
+    "category": "Fast Inference",
+    "desc": "GPT OSS 120B — fastest at 2,304 tok/s"
+  },
+  {
+    "id": "cerebras/llama3.1-8b",
+    "provider": "Cerebras",
+    "providerKey": "cerebras",
+    "name": "cerebras-llama-3.1-8b",
+    "category": "Fast Inference",
+    "desc": "8B ultra-fast"
+  },
+  {
+    "id": "mistral/mistral-large-latest",
+    "provider": "Mistral AI",
+    "providerKey": "mistral",
+    "name": "mistral-large",
+    "category": "Other Cloud",
+    "desc": "Most capable Mistral"
+  },
+  {
+    "id": "mistral/mistral-medium-latest",
+    "provider": "Mistral AI",
+    "providerKey": "mistral",
+    "name": "mistral-medium",
+    "category": "Other Cloud",
+    "desc": "Mistral Medium 3.1 — balanced"
+  },
+  {
+    "id": "mistral/mistral-small-latest",
+    "provider": "Mistral AI",
+    "providerKey": "mistral",
+    "name": "mistral-small",
+    "category": "Other Cloud",
+    "desc": "Efficient and affordable"
+  },
+  {
+    "id": "mistral/mistral-small-3.1-24b-instruct",
+    "provider": "Mistral AI",
+    "providerKey": "mistral",
+    "name": "mistral-small-3.1-24b-instruct",
+    "category": "Other Cloud",
+    "desc": "Mistral Small 3.1 24B — instruction-tuned"
+  },
+  {
+    "id": "mistral/codestral-latest",
+    "provider": "Mistral AI",
+    "providerKey": "mistral",
+    "name": "codestral",
+    "category": "Other Cloud",
+    "desc": "Code specialist"
+  },
+  {
+    "id": "mistral/codestral-25.01",
+    "provider": "Mistral AI",
+    "providerKey": "mistral",
+    "name": "codestral-25.01",
+    "category": "Other Cloud",
+    "desc": "Codestral 25.01 — code generation"
+  },
+  {
+    "id": "mistral/devstral-small-2-25-12",
+    "provider": "Mistral AI",
+    "providerKey": "mistral",
+    "name": "devstral-small",
+    "category": "Other Cloud",
+    "desc": "Devstral Small 2 — beats Qwen 3 Coder"
+  },
+  {
+    "id": "together/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "provider": "Together AI",
+    "providerKey": "together",
+    "name": "together-llama-4-maverick",
+    "category": "Other Cloud",
+    "desc": "Llama 4 Maverick — best multimodal open model"
+  },
+  {
+    "id": "together/meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider": "Together AI",
+    "providerKey": "together",
+    "name": "together-llama-4-scout",
+    "category": "Other Cloud",
+    "desc": "Llama 4 Scout — 10M context"
+  },
+  {
+    "id": "together/deepseek-ai/DeepSeek-R1",
+    "provider": "Together AI",
+    "providerKey": "together",
+    "name": "together-deepseek-r1",
+    "category": "Other Cloud",
+    "desc": "DeepSeek R1 reasoning"
+  },
+  {
+    "id": "together/moonshotai/Kimi-K2-Instruct",
+    "provider": "Together AI",
+    "providerKey": "together",
+    "name": "together-kimi-k2",
+    "category": "Other Cloud",
+    "desc": "Kimi K2 — 262K context"
+  },
+  {
+    "id": "together/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
+    "provider": "Together AI",
+    "providerKey": "together",
+    "name": "together-qwen3",
+    "category": "Other Cloud",
+    "desc": "Qwen 3 235B — top open reasoning model"
+  },
+  {
+    "id": "perplexity/sonar",
+    "provider": "Perplexity",
+    "providerKey": "perplexity",
+    "name": "sonar",
+    "category": "Other Cloud",
+    "desc": "Lightweight web search, 128K context"
+  },
+  {
+    "id": "perplexity/sonar-pro",
+    "provider": "Perplexity",
+    "providerKey": "perplexity",
+    "name": "sonar-pro",
+    "category": "Other Cloud",
+    "desc": "Advanced search, 2x more sources"
+  },
+  {
+    "id": "perplexity/sonar-reasoning",
+    "provider": "Perplexity",
+    "providerKey": "perplexity",
+    "name": "sonar-reasoning",
+    "category": "Other Cloud",
+    "desc": "Real-time reasoning with web search"
+  },
+  {
+    "id": "perplexity/sonar-reasoning-pro",
+    "provider": "Perplexity",
+    "providerKey": "perplexity",
+    "name": "sonar-reasoning-pro",
+    "category": "Other Cloud",
+    "desc": "Premium reasoning — DeepSeek-R1 powered"
+  },
+  {
+    "id": "cohere/command-r-plus",
+    "provider": "Cohere",
+    "providerKey": "cohere",
+    "name": "command-r-plus",
+    "category": "Other Cloud",
+    "desc": "Most capable Command R — enterprise RAG"
+  },
+  {
+    "id": "cohere/command-r",
+    "provider": "Cohere",
+    "providerKey": "cohere",
+    "name": "command-r",
+    "category": "Other Cloud",
+    "desc": "Command R — strong RAG and tool use"
+  },
+  {
+    "id": "cohere/command-a",
+    "provider": "Cohere",
+    "providerKey": "cohere",
+    "name": "command-a",
+    "category": "Other Cloud",
+    "desc": "Command A — next-gen conversational AI"
+  },
+  {
+    "id": "cohere/embed-v4",
+    "provider": "Cohere",
+    "providerKey": "cohere",
+    "name": "embed-v4",
+    "category": "Other Cloud",
+    "desc": "Embed v4 — state-of-the-art embeddings"
+  },
+  {
+    "id": "ai21/jamba-1.5-large",
+    "provider": "AI21 Labs",
+    "providerKey": "ai21",
+    "name": "jamba-1.5-large",
+    "category": "Other Cloud",
+    "desc": "Jamba 1.5 Large — Mamba-SSM architecture, 256K context"
+  },
+  {
+    "id": "ai21/jamba-1.5-mini",
+    "provider": "AI21 Labs",
+    "providerKey": "ai21",
+    "name": "jamba-1.5-mini",
+    "category": "Other Cloud",
+    "desc": "Jamba 1.5 Mini — efficient Mamba-SSM"
+  },
+  {
+    "id": "yi/yi-large",
+    "provider": "01.AI (Yi)",
+    "providerKey": "yi",
+    "name": "yi-large",
+    "category": "Other Cloud",
+    "desc": "Yi Large — flagship reasoning model"
+  },
+  {
+    "id": "yi/yi-medium",
+    "provider": "01.AI (Yi)",
+    "providerKey": "yi",
+    "name": "yi-medium",
+    "category": "Other Cloud",
+    "desc": "Yi Medium — balanced performance"
+  },
+  {
+    "id": "yi/yi-vision",
+    "provider": "01.AI (Yi)",
+    "providerKey": "yi",
+    "name": "yi-vision",
+    "category": "Other Cloud",
+    "desc": "Yi Vision — multimodal understanding"
+  },
+  {
+    "id": "ollama/llama4",
+    "provider": "Ollama",
+    "providerKey": "ollama",
+    "name": "llama4",
+    "category": "Local",
+    "desc": "Llama 4 Scout — 17B MoE, 10M context"
+  },
+  {
+    "id": "ollama/qwen3",
+    "provider": "Ollama",
+    "providerKey": "ollama",
+    "name": "qwen3",
+    "category": "Local",
+    "desc": "Qwen 3 — strong multilingual reasoning"
+  },
+  {
+    "id": "ollama/llama3.2",
+    "provider": "Ollama",
+    "providerKey": "ollama",
+    "name": "llama3.2",
+    "category": "Local",
+    "desc": "Meta Llama 3.2 — local"
+  },
+  {
+    "id": "ollama/qwen2.5",
+    "provider": "Ollama",
+    "providerKey": "ollama",
+    "name": "qwen2.5",
+    "category": "Local",
+    "desc": "Alibaba Qwen 2.5 — local"
+  },
+  {
+    "id": "ollama/codellama",
+    "provider": "Ollama",
+    "providerKey": "ollama",
+    "name": "codellama",
+    "category": "Local",
+    "desc": "Code specialist — local"
+  },
+  {
+    "id": "ollama/phi3",
+    "provider": "Ollama",
+    "providerKey": "ollama",
+    "name": "phi3",
+    "category": "Local",
+    "desc": "Microsoft Phi-3 — small but capable"
+  },
+  {
+    "id": "ollama/gemma2",
+    "provider": "Ollama",
+    "providerKey": "ollama",
+    "name": "gemma2",
+    "category": "Local",
+    "desc": "Google Gemma 2 — local"
+  },
+  {
+    "id": "openrouter/auto",
+    "provider": "OpenRouter",
+    "providerKey": "openrouter",
+    "name": "openrouter-auto",
+    "category": "Gateway",
+    "desc": "Auto-routes to best model"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-4-6",
+    "provider": "OpenRouter",
+    "providerKey": "openrouter",
+    "name": "openrouter-claude-sonnet",
+    "category": "Gateway",
+    "desc": "Claude via OpenRouter"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4",
+    "provider": "OpenRouter",
+    "providerKey": "openrouter",
+    "name": "openrouter-gpt-5.4",
+    "category": "Gateway",
+    "desc": "GPT-5.4 via OpenRouter"
+  },
+  {
+    "id": "openrouter/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "provider": "OpenRouter",
+    "providerKey": "openrouter",
+    "name": "openrouter-llama-4-maverick",
+    "category": "Gateway",
+    "desc": "Llama 4 Maverick via OpenRouter"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider": "OpenRouter",
+    "providerKey": "openrouter",
+    "name": "openrouter-llama-4-scout",
+    "category": "Gateway",
+    "desc": "Llama 4 Scout via OpenRouter"
+  }
+]

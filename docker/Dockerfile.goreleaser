@@ -1,0 +1,20 @@
+FROM alpine:3.21
+
+ARG TARGETPLATFORM
+
+RUN apk add --no-cache ca-certificates tzdata
+
+COPY $TARGETPLATFORM/heron /usr/local/bin/heron
+COPY docker/entrypoint.sh /entrypoint.sh
+
+RUN chmod +x /entrypoint.sh
+
+RUN addgroup -g 1000 heron && \
+    adduser -D -u 1000 -G heron heron
+
+USER heron
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD wget -q --spider http://localhost:18790/health || exit 1
+
+ENTRYPOINT ["/entrypoint.sh"]

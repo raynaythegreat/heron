@@ -1,0 +1,54 @@
+# ============================================================
+# Stage 1: Build the heron binary
+# ============================================================
+FROM golang:1.26.0-alpine AS builder
+
+RUN apk add --no-cache git make
+
+WORKDIR /src
+
+# Cache dependencies
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copy source and build
+COPY . .
+RUN make build
+
+# ============================================================
+# Stage 2: Node.js-based runtime with full MCP support
+# ============================================================
+FROM node:24-alpine3.23
+
+# Install runtime dependencies
+RUN apk add --no-cache \
+  ca-certificates \
+  curl \
+  git \
+  python3 \
+  py3-pip
+
+# Install uv and symlink to system path
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh && \
+  ln -s /root/.local/bin/uv /usr/local/bin/uv && \
+  ln -s /root/.local/bin/uvx /usr/local/bin/uvx && \
+  uv --version
+
+# Create non-root user and group
+RUN addgroup -g 1000 heron && \
+    adduser -D -u 1000 -G heron heron
+
+# Copy binary
+COPY --from=builder --chown=heron:heron /src/build/heron /usr/local/bin/heron
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD wget -q --spider http://localhost:18790/health || exit 1
+
+USER heron
+
+# Run onboard to create initial directories and config
+RUN /usr/local/bin/heron onboard
+
+ENTRYPOINT ["heron"]
+CMD ["gateway"]

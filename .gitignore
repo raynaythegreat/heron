@@ -1,0 +1,50 @@
+# Binaries
+heron
+heron-launcher
+heron-web
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go
+vendor/
+
+# Frontend
+node_modules/
+web/frontend/dist/
+web/backend/dist/
+
+# Config
+config.json
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Data
+*.db
+*.db-journal
+*.db-wal
+*.jsonl
+.heron/memory/
+.heron/logs/
+.heron/coordination/
+.heron/knowledge/
+.heron/plugins/

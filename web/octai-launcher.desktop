@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=OctAi Launcher
+Comment=Web-based configuration and management UI for OctAi
+Exec=octai-launcher
+Icon=octai-launcher
+Terminal=true
+Type=Application
+Categories=Utility;Network;
+Keywords=octai;ai;agent;bot;
