@@ -1,7 +1,7 @@
 # Binaries
-heron
-heron-launcher
-heron-web
+/heron$
+/heron-launcher$
+/heron-web$
 *.exe
 *.exe~
 *.dll
